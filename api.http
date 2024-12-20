@@ -1,0 +1,8 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+  "title": "Mia Mia Mia Mia 4",
+  "details": "Cupcake ipsum dolor sit amet wafer chocolate cake. Liquorice I love biscuit I love oat cake. Dragée gummies ice cream lemon drops candy.",
+  "maximumAttendees": 50
+}
