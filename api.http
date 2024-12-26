@@ -6,3 +6,35 @@ Content-Type: application/json
   "details": "Cupcake ipsum dolor sit amet wafer chocolate cake. Liquorice I love biscuit I love oat cake. Dragée gummies ice cream lemon drops candy.",
   "maximumAttendees": 50
 }
+
+###
+POST http://localhost:3333/events/b6cbe952-030c-4093-b06d-e7cf55133840/attendees
+Content-Type: application/json
+
+{
+  "name": "Dani",
+  "email": "dani@gmail.com"
+}
+
+###
+GET http://localhost:3333/events/b6cbe952-030c-4093-b06d-e7cf55133840
+Content-Type: application/json
+
+###
+GET http://localhost:3333/events/ea2fc388-7bad-471a-a490-e09477e52c60
+
+###
+POST http://localhost:3333/events/ea2fc388-7bad-471a-a490-e09477e52c60/attendees
+Content-Type: application/json
+
+{
+  "name": "Antonio Soldera",
+  "email": "acsoldera@gmail.com.br"
+}
+
+###
+GET http://localhost:3333/events/ea2fc388-7bad-471a-a490-e09477e52c60/attendees
+
+
+###
+GET http://localhost:3333/attendees/5/check-in
